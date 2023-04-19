@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>编辑课程</title>
+</head>
+<body>
+    <h1>编辑课程</h1>
+    <form method="post">
+        <label>课程名称：</label>
+        <input type="text" name="course_name" value="{{ course[1] }}"><br>
+        <label>教师：</label>
+        <input type="text" name="teacher" value="{{ course[2] }}"><br>
+        <label>时间：</label>
+        <input type="text" name="time" value="{{ course[3] }}"><br>
+        <label>地点：</label>
+        <input type="text" name="location" value="{{ course[4] }}"><br>
+        <input type="submit" value="保存">
+    </form>
+</body>
+</html>
